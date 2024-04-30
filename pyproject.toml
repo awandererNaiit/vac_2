@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vacancies-editor"
+version = "0.1.0"
+description = ""
+authors = ["axiewq <kocmos2048@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
