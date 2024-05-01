@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Python Разработчик",
+        "url": "https://hh.ru/vacancy/98126004",
+        "salary_from": 150000,
+        "salary_to": null,
+        "requirement": "Самостоятельный, опытный <highlighttext>программист</highlighttext>. Уверенно владеешь <highlighttext>Python</highlighttext>\\Flask. Доп. технологии: docker, clickhouse, mysql, redis. Можешь разобраться в чужом коде. ",
+        "responsibility": "Оценка, сегментирование и распределение задач. Коммуникации с менеджментом по отдельным задачам и продукту в целом. Коммуникации с другими командами. ",
+        "currency": "RUR"
+    },
+    {
+        "name": "Golang Developer/Middle Go",
+        "url": "https://hh.ru/vacancy/97390836",
+        "salary_from": 125000,
+        "salary_to": 280000,
+        "requirement": "Опыт работы с Linux, docker container. Знание основ безопасной <highlighttext>разработки</highlighttext>. Знание паттернов проектирования. Знание принципов ООП. Опыт работы с Postgresql. ",
+        "responsibility": "Писать чистый код на Golang. Поддерживать и развивать существующую кодовую базу. Предлагать различные технические решения. Проектировать API. Проводить Ревью кода. ",
+        "currency": "RUR"
+    },
+    {
+        "name": "Программист - разработчик Python",
+        "url": "https://hh.ru/vacancy/97746667",
+        "salary_from": 100000,
+        "salary_to": null,
+        "requirement": "Асинхронное sqlalchemy (asyncpg). Loguru. Уметь работать с базами данных: MariaDB\\MySQL. PostreSQL. Уметь работать с alembic. Уметь работать с VPS...",
+        "responsibility": "Модули:",
+        "currency": "RUR"
+    },
+    {
+        "name": "Тестировщик ПО",
+        "url": "https://hh.ru/vacancy/97927160",
+        "salary_from": 90000,
+        "salary_to": 90000,
+        "requirement": "Опыт тестирования программных продуктов. Знание bash, <highlighttext>python</highlighttext>, sql. Уверенный пользователь Linux.",
+        "responsibility": "Тестирование и сопровождение системы документооборота (госсектор). - <highlighttext>Разработка</highlighttext> сценариев тестирования с применением <highlighttext>python</highlighttext> и sql. - Тестирование микросервисов. - Поиск и устранение ошибок...",
+        "currency": "RUR"
+    },
+    {
+        "name": "Python разработчик",
+        "url": "https://hh.ru/vacancy/96461907",
+        "salary_from": 80000,
+        "salary_to": 180000,
+        "requirement": "django/flask. - postgresql. - react/angular. - docker. - опыт коммерческой разработчки от 1 года.",
+        "responsibility": "Разрабатываем несколько своих проектов. Логистика, образование, сервис для фотографов и другое.",
+        "currency": "RUR"
+    }
+]

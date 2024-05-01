@@ -112,3 +112,4 @@ class Vacancy:
                 f"Ссылка на вакансию {self.url}\n"
                 f"Требования: {self.requirement} \n"
                 f"Обязательства: {self.responsibility}\n")
+
