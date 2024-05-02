@@ -94,9 +94,17 @@ class Vacancy:
                 salary_from = 0
                 salary_to = 0
                 currency = ''
-            else:
+            elif vacancy['salary']['from'] != None and vacancy['salary']['to'] != None:
                 salary_from = vacancy['salary']['from']
                 salary_to = vacancy['salary']['to']
+                currency = vacancy['salary']['currency']
+            elif vacancy['salary']['from'] == None:
+                salary_from = 0
+                salary_to = vacancy['salary']['to']
+                currency = vacancy['salary']['currency']
+            elif vacancy['salary']['to'] == None:
+                salary_from = vacancy['salary']['from']
+                salary_to = 0
                 currency = vacancy['salary']['currency']
             url = vacancy['alternate_url']
             requirement = Vacancy.check_data_str(vacancy['snippet']['requirement'])
@@ -112,4 +120,3 @@ class Vacancy:
                 f"Ссылка на вакансию {self.url}\n"
                 f"Требования: {self.requirement} \n"
                 f"Обязательства: {self.responsibility}\n")
-
