@@ -18,7 +18,6 @@ def main():
     vacancies = hh.load_vacancies(search_query)
     vacancies = Vacancy.from_json(vacancies)
 
-
     filtered_vacancies = filter_vacancies(vacancies, filter_words)
 
     ranged_vacancies = get_vacancies_by_salary(filtered_vacancies, min_salary)
