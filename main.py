@@ -7,6 +7,7 @@ from src.file import JSONSaver
 ROOT = os.path.dirname(__file__)
 FILE_PATH = os.path.join(ROOT, 'src', 'results.json')
 
+
 def main():
     search_query = input("Введите поисковый запрос: ")
     top_n = int(input("Введите количество вакансий для вывода в топ N: "))
@@ -27,8 +28,6 @@ def main():
 
     result = JSONSaver(FILE_PATH)
     result.save_data(top_vacancies)
-
-
 
 
 if __name__ == "__main__":
